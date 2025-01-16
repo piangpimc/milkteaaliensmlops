@@ -22,3 +22,4 @@ output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predict
 output.to_csv('submission.csv', index=False)
 print("Your submission was successfully saved!")
 print(predictions)
+print("test")
